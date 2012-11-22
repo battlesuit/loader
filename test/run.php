@@ -1,8 +1,6 @@
 <?php
 namespace test_bench {
-  require_once '/../../suitcase.php';
-  \suitcase\import('test', 'loader');
-  
+  require '../init/test.php';
   require 'bench.php';
   require 'loader_test.php';
   
