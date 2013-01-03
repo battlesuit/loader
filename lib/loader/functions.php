@@ -29,6 +29,14 @@ namespace loader {
   }
   
   /**
+   * Alias for loader\import
+   * 
+   */
+  function load() {
+    call_user_func_array('loader\import', func_get_args());
+  }
+  
+  /**
    * Appends a lookup location for bundle imports
    *
    * @param string $dir
