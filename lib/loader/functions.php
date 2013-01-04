@@ -46,6 +46,14 @@ namespace loader {
   }
   
   /**
+   * Alias for loader\import_from
+   * 
+   */
+  function load_from($dir) {
+    return import_from($dir);
+  }
+  
+  /**
    * Appends a class/interface/trait definition with its file
    *
    * @param string $definition
